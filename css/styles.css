@@ -1,0 +1,77 @@
+
+/* ----------------------------------------- CABECERA ----------------------------------------- */
+
+.site-logo{
+    width: 120px;
+}
+
+.site-title{
+    font-size: 1.4em;
+}
+@media (max-width: 575px){
+    .site-title{
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .logoMintrabajo{
+        width: 100%;
+    }
+}
+@media (min-width: 992px){
+    .logoMintrabajo{
+        width: 196px;
+    }
+  }
+
+
+
+/* ----------------------------------------- INICIO ----------------------------------------- */
+  #video-inicio{
+      
+  }
+
+  @media (max-width: 767px) {
+    #video-inicio{
+      width: 100%;
+      height: 300px;
+    }
+	}
+
+	@media (min-width: 768px)  {
+    #video-inicio{
+      width: 100%;
+      height: 600px;
+    }
+	}
+
+/* ----------------------------------------- GENERAL ----------------------------------------- */
+
+/* Botones */
+.btn-primary{
+    background-color: #ff6719;
+    border-color: #ff6719
+}
+.btn-primary:hover{
+    background-color: #d64b06;
+    border-color: #d64b06
+}
+.btn-primary:active, .btn-primary:focus{
+	background-color: #c04508 !important;
+	border-color: #c04508 !important;
+}
+.btn-primary:focus{
+	box-shadow: 0 0 0 .2rem rgba(255, 145, 0, 0.5) !important;
+}
+
+
+
+.img-recaptcha{
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#img-recap-ok{
+	display: none;
+}
